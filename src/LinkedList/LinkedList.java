@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class LinkedList {
     public static class Node {
         int data;
@@ -12,10 +14,10 @@ public class LinkedList {
         Node newNode = new Node(11);
         Node head = newNode;
         head = addLast(head, 12);
-//        head = addLast(head, 13);
-//        head = addLast(head, 14);
-//        head = addLast(head, 15);
-//        head = addLast(head, 16);
+        head = addLast(head, 13);
+        head = addLast(head, 14);
+        head = addLast(head, 15);
+    head = addLast(head, 16);
 //        head = addFirst(head, 20);
 //        head = addLast(head, 16);
 //        head = addAtIndex(head, 122, 2);

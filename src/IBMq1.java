@@ -20,3 +20,5 @@ public class IBMq1 {
         System.out.println(list);
     }
 }
+
+//[1,2,3,4,5] 4
