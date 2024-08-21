@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-public class IBMq1 {
+public class Infosysq1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
