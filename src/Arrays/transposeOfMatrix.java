@@ -17,11 +17,11 @@ public class transposeOfMatrix {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
 
-//                if (j < i) {
-//                    int temp = arr[i][j];
-//                    arr[i][j] = arr[j][i];
-//                    arr[j][i] = temp;
-//                }
+                if (j < i) {
+                    int temp = arr[i][j];
+                    arr[i][j] = arr[j][i];
+                    arr[j][i] = temp;
+                }
 
             }
         }
